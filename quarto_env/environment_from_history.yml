@@ -1,0 +1,14 @@
+name: quarto_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - bokeh
+  - geopandas
+  - matplotlib
+  - pyarrow
+  - python=3.11
+  - seaborn
+  - jupyterlab
+  - conda-forge::quarto
+prefix: /home/matt/miniconda3/envs/quarto_env
