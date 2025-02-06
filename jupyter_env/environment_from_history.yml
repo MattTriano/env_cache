@@ -1,0 +1,10 @@
+name: jupyter_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - jupyterlab
+  - python=3.11
+  - conda-forge::ipywidgets
+  - conda-forge::plotly
+prefix: /home/matt/miniconda3/envs/jupyter_env
